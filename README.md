@@ -2,6 +2,12 @@
 
 A small interactive Discord bot built with Python and `discord.py`. It includes a few playful commands and a simple story game where users can begin a story and make choices like "left" or "right".
 
+## About this project
+
+This project is a beginner-friendly Discord story bot built with Python and the `discord.py` library. It includes a simple interactive story system, command-based responses, and a lightweight chat feature that demonstrates how Discord bots can respond to user input in real time.
+
+The goal of the project was to learn bot development basics, explore the Discord API, and build a fun, expandable project that can grow into something more advanced later. It is designed to be easy to understand, modify, and extend for learning or personal projects.
+
 ## Features
 
 - Bot online status message
@@ -70,6 +76,22 @@ python bot.py
 ```
 
 If the bot starts successfully, it will print a message showing the bot account it connected as.
+
+### Demo
+
+```text
+!hello
+> Hello! I'm online.
+
+!story
+> You wake up in a mysterious island.
+> Next to you is a glowing key.
+> A hidden door opens nearby.
+> What do you do?
+
+!choose left
+> You head left and discover a room filled with old maps.
+> One of them has your name written on it.
 
 ## Bot Commands
 
